@@ -5,7 +5,7 @@ networks:
 
 services:
     php:
-        image: php:7.2-fpm-alpine
+        image: php:7.4.16-fpm-alpine
         ports:
             - "9000:9000"
         volumes:
